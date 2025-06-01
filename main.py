@@ -85,14 +85,14 @@ def load_player_data(cpm):
         )
 
     console.print(
-        "[bold yellow]========[white] PLAYER DETAILS [/white]========[/bold yellow]"
+        "[bold red]========[white] PLAYER DETAILS [/white]========[/bold red yellow]"
     )
 
     console.print(
         f"[bold white]   >> Name        : {data.get('Name', 'UNDEFINED')}[/bold white]"
     )
     console.print(
-        f"[bold white]   >> LocalID     : {data.get('localID', 'UNDEFINED')}[/bold white]"
+        f"[bold white]   >> Local:ID     : {data.get('localID', 'UNDEFINED')}[/bold white]"
     )
     console.print(
         f"[bold white]   >> Moneys      : {data.get('money', 'UNDEFINED')}[/bold white]"
